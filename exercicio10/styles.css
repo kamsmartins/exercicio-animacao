@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff8ed;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    margin-top: 40vh;
+    position: relative;
+    animation: movendoLogo 3s infinite;
+}
+
+@keyframes movendoLogo {
+    from {
+        margin-top: 40vh;
+        width: 200px;
+        height: 200px;
+    }
+
+    to {
+        margin-top: 0;
+        width: 70px;
+        height: 70px;
+        transform: translateX(-95vh);
+    }
+    
+}

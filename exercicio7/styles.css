@@ -1,0 +1,18 @@
+.quadrado{
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    transition: 3s;
+    margin: 20% auto;
+    animation: quadrado 4s infinite;
+}
+
+.quadrado:hover{
+    width: 200px;
+    height: 200px;
+}
+
+@keyframes quadrado {
+    0% { background-color: red;  }
+    100.00% { background-color: violet; }
+}
