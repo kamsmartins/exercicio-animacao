@@ -1,0 +1,25 @@
+.quadrado{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: 3s;
+    margin: 20% auto;
+    animation: quadrado 4s infinite;
+}
+
+.quadrado:hover{
+    transform: rotate(360deg)
+}
+
+@keyframes quadrado {
+    0% { background-color: red; 
+        transform: rotate(360deg)   }
+   12.5% { background-color: orange; }
+   25% { background-color: yellow; }
+   37.5% { background-color: green;  }
+   50% { background-color: blue;   }
+   62.5% { background-color: indigo; }
+   75% {background-color: aqua;}
+   87.5% {background-color: bisque;}
+  100.00% { background-color: violet; }
+}

@@ -1,0 +1,11 @@
+.circulo{
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient(circle, pink, blue);
+    border-radius: 50%;
+    transition: 4s;
+}
+
+.circulo:hover{
+    margin-left: 500px;
+}

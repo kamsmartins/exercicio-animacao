@@ -1,0 +1,14 @@
+.circulo{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 20% auto;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.circulo:hover{
+    background-color: blueviolet;
+    width: 400px;
+    height: 400px;
+}
