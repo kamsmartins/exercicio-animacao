@@ -1,0 +1,60 @@
+.quadrado1 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 20px;
+    animation: quadrado1 2s linear
+    }
+
+    .quadrado2 {
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        margin: 20px;
+        animation: quadrado2 2s linear
+        }
+
+        .quadrado3 {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            margin: 20px;
+            animation: quadrado3 2s linear
+            }
+
+
+@keyframes quadrado1 {
+    0%{
+        transform: translateX(0%);
+    }
+    50%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes quadrado2 {
+    0%{
+        transform: translateX(0%);
+    }
+    50%{
+        transform: translateX(200%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes quadrado3 {
+    0%{
+        transform: translateX(0%);
+    }
+    50%{
+        transform: translateX(300%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}

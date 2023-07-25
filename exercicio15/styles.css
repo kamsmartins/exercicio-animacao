@@ -1,0 +1,36 @@
+.circulo{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: blue;
+    animation: mexer 2s infinite;
+}
+
+@keyframes mexer{
+    0%{
+        transform: translatey(0);
+    }
+    10%{
+        transform: translatey(-200px);
+    }
+    20%{
+        transform: translatey(0);
+    }
+    30% {
+        transform: translatey(-200px);
+           }
+    
+    40% {
+        transform: translateY(0);
+        
+        }
+    
+    50% {
+        transform: translateY(-200px);
+       
+        }
+
+    60% {
+        transform: translateY(0);
+    }
+}
